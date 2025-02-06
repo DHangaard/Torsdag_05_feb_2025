@@ -57,8 +57,8 @@ void setup() {
   println(" ");
 
   // 4.g Add three to "x" and "y"
-  x = x + 3;
-  y = y + 3;
+  x += 3;
+  y += 3;
   println("New values assigned! + 3");
   println("x: " + x + " | y: " + y);
   println(" ");
